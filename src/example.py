@@ -1,3 +1,13 @@
+"""Utility functions."""
+
+
 def my_function(a):
-    """My function that does something."""
+    """
+    My function.
+
+    Parameters
+    ----------
+    a : int
+        The value to use.
+    """
     pass
