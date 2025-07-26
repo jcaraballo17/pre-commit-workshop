@@ -1,22 +1,22 @@
 [project]
-name = "custom-hook"
+name = "prefix-check"
 version = "0.1.0"
-authors = [{name = "TODO", email = "TODO@TODO"},]
-description = "A pre-commit hook created during the workshop."
+authors = [{name = "Juan Caraballo", email = "juan.caraballo17@gmail.com"},]
+description = "A pre-commit hook to validate the filenames prefix."
 readme = "README.md"
 
 requires-python = ">=3.10"
 dependencies = [
-    "ruff>=0.12.5",
 ]  # TODO: declare any dependencies
 
 # TODO: update `your-script-name` with the name of your choice
 # TODO: update `pkg.module:function` to point to your function
-scripts.your-script-name = "pkg.module:function"
+scripts.your-script-name = "prefix-check.cli:main"
 
 [dependency-groups]
 dev = [
     "pre-commit",  # so you can run hooks on the codebase
+    "ruff>=0.12.5",
     # "pytest",  # remember to add tests for your hook
 ]
 
