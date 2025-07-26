@@ -6,7 +6,9 @@ description = "A pre-commit hook created during the workshop."
 readme = "README.md"
 
 requires-python = ">=3.10"
-dependencies = []  # TODO: declare any dependencies
+dependencies = [
+    "ruff>=0.12.5",
+]  # TODO: declare any dependencies
 
 # TODO: update `your-script-name` with the name of your choice
 # TODO: update `pkg.module:function` to point to your function
