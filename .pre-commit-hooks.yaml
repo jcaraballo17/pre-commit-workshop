@@ -1,5 +1,5 @@
-- id: prefix-check
-  name: prefix-check
+- id: prefix_check
+  name: prefix_check
   description: This hook checks filename prefix.
-  entry: prefix-check
+  entry: prefix_check
   language: python
