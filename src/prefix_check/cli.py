@@ -1,7 +1,7 @@
 import argparse
 from typing import Sequence
 
-from custom_hook.check import validate_filename
+from prefix_check.check import validate_filename
 
 
 def main(argv: Sequence[str] | None = None) -> int:
